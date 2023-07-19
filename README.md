@@ -1,5 +1,6 @@
 # Credit Card Approval Predictor Web Application
-![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/9743d8a4-071f-4767-b407-cdb1dd4514f8)
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/b729a74c-31d5-4621-984e-d6f6649ec6ac)
+
 
 
 ## Overview
