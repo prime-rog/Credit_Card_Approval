@@ -82,12 +82,14 @@ The majority of the denied applications had been employed for less than two year
 ## Data
 
 The dataset used to train the predictive model is not included in this repository. However, you can find a sample dataset for demonstration purposes in the `data` directory. If you want to use your own data, make sure it is in a compatible format (e.g., CSV) and has the required variables.
-DATA SOURCE - https://archive.ics.uci.edu/dataset/27/credit+approval
+
+## DATA SOURCE - https://archive.ics.uci.edu/dataset/27/credit+approval
 
 ## Model
 
 The predictive model used in this application is built on the Random Forest algorithm. The model is trained using historical credit card application data, and it leverages various features such as income, credit score, employment status, etc. to make accurate predictions.
-Accuracy - 83%
+
+## Accuracy - 83%
 
 ## Contributing
 
