@@ -28,7 +28,7 @@ This is a web application built using R and Shiny Web App to predict whether a p
 
 ## Demo
 
-You can access the live demo of the web application at [https://your-shinyapp-url-here](https://prime-rog.shinyapps.io/Credit_Card_Approval/).
+You can access the live demo of the web application at(https://prime-rog.shinyapps.io/Credit_Card_Approval/).
 
 ## Installation
 
