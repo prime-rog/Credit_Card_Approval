@@ -1,0 +1,13 @@
+name: Credit_Card_Approval
+title: Credit_Card_Approval
+username:
+account: prime-rog
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9477411
+bundleId: 7473914
+url: https://prime-rog.shinyapps.io/Credit_Card_Approval/
+when: 1689754062.28563
+lastSyncTime: 1689754062.28565
+asMultiple: FALSE
+asStatic: FALSE
