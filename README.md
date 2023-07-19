@@ -14,10 +14,12 @@ This is a web application built using R and Shiny Web App to predict whether a p
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Insights](#insights)
 - [Data](#data)
 - [Model](#model)
 - [Contributing](#contributing)
 - [License](#license)
+  
 
 ## Features
 
@@ -49,6 +51,33 @@ install.packages(c("shiny", "tidyverse", "caret", "randomForest"))
 2. Set the working directory to the location where you cloned this repository.
 3. Run the `app.R` file to launch the Shiny application.
 4. Access the application by visiting [http://127.0.0.1:PORT/](http://127.0.0.1:PORT/) in your web browser.
+
+## Insights
+The attributes are missing from the dataset. Thanks to Ryan Khun’s Analysis of Credit Approval Data, the analysis provided the attribute names. Although some of the variables are not interpretable such as education level and ethnicity.
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/a0691e4b-5e71-418f-bcd6-24f5db74212f)
+
+With a yearly income of less than approximately $10,000 have been denied, yet there are still people that have been accepted within that range. The majority of the people get approved for a credit card around 20,000.
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/8c86a2fa-b6b4-4598-a136-b5c680fea0cc)
+
+Having a prior default has a major influence of being denied a credit card. About three quarters of the applications that did not have a prior default were approved, whereas about 7% of the applications with a prior default were approved.
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/3ed6a5dd-8074-410b-86d0-f8513cadf973)
+
+Three quarters of the unemployed people were denied a credit card, whereas only a third of the employed people were denied. This means being employed has a large influence on being approved for a credit card.
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/343c9a8b-99e3-41a4-bd6b-69e6bbf6d1fd)
+
+
+A large percentage of applications are approved with little to no income. This indicates that other factors can affect an approved credit card.
+There are a large amount of applications for the v attribute, but around half of them are denied. There seems to be no correlation between ethnicity and being approved for a credit card.
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/7d071df8-7847-46e8-87ad-5b9df4ee19e5)
+
+40% of males are approved and 44% of females are approved. There seems to be no correlation between gender and being approved of a credit card. Even though the p-value of the chi-squared test is greater than 0.05, I suspect that the difference in the number of males and females had an effect on the p-value. I believe there is not association between gender and being approved for a credit card application.
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/3ebeb0d2-c700-4b62-9148-7d807d355375)
+
+There are some variables that have a large amount of approved and denied card application. It is possible that education level has an effect on the chances of being approved for a credit card.
+![image](https://github.com/prime-rog/Credit_Card_Approval/assets/83567814/7c62b775-04a3-4a03-91d3-13a999d54129)
+
+The majority of the denied applications had been employed for less than two years with outliers ranging up to more than ten. The majority of the approved applications had been employed for more than two years. The outliers may indicate having other factors involved in being denied a credit card.
+
 
 ## Data
 
